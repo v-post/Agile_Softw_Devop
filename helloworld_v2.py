@@ -14,7 +14,7 @@ def main():
 
     # Greet each person separately
     for i in range(1, len(sys.argv)):
-        print("Hello " + sys.argv[i] + "!")
+        print("Hello, " + sys.argv[i] + "!")
 
 if __name__ == "__main__":
     main()

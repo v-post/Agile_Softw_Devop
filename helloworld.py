@@ -6,7 +6,12 @@ import sys
 
 def main():
 
-    # Arguments passed
+    # If no arguments provided - display usage and exit
+    if len(sys.argv) < 2:
+        print("Usage: python helloworld.py <name>")
+        sys.exit(1)
+
+    # Greet the person
     print("Hello " + sys.argv[1] + "!")
 
 if __name__ == "__main__":
